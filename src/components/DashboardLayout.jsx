@@ -20,7 +20,7 @@ const DashboardLayout = ({ children }) => {
       id: 'my-workflow',
       icon: <FileText size={20} />,
       label: 'My Workflow',
-      path: '/my-workflow'
+      path: '/'
     },
     {
       id: 'new-workflow',

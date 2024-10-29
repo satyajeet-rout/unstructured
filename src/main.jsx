@@ -25,7 +25,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       {/* <Route path='' element={<Homepage />} /> */}
-      <Route path='my-workflow' element={<MyWorkflow />} />
+      <Route path='' element={<MyWorkflow />} />
       <Route path='new-workflow' element={<NewWorkflow />} />
       <Route path='external-integrations' element={<ExternalIntegrations />} />
       
